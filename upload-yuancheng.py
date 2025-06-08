@@ -276,7 +276,7 @@ def main():
             return False
         
         # 4. 上传到API
-        user_name = "cxfhdgdgdcgh"  # 默认文件名，无需交互
+        user_name = "test1"  # 默认文件名，无需交互
         
         if not manager.upload_to_api(user_name):
             return False
